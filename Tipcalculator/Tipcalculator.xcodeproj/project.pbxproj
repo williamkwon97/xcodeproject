@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E7001EF21ECF7EA00694BC9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E7001EE21ECF7E900694BC9 /* Settings.bundle */; };
 		8EB9D29521D5413A00F0D83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9D29421D5413A00F0D83B /* AppDelegate.swift */; };
 		8EB9D29721D5413A00F0D83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB9D29621D5413A00F0D83B /* ViewController.swift */; };
 		8EB9D29A21D5413A00F0D83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB9D29821D5413A00F0D83B /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E7001EE21ECF7E900694BC9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		8EB9D29121D5413A00F0D83B /* Tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB9D29421D5413A00F0D83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB9D29621D5413A00F0D83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		8EB9D28821D5413A00F0D83B = {
 			isa = PBXGroup;
 			children = (
+				8E7001EE21ECF7E900694BC9 /* Settings.bundle */,
 				8EB9D29321D5413A00F0D83B /* Tipcalculator */,
 				8EB9D2A821D5413D00F0D83B /* TipcalculatorTests */,
 				8EB9D2B321D5413D00F0D83B /* TipcalculatorUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7001EF21ECF7EA00694BC9 /* Settings.bundle in Resources */,
 				8EB9D29F21D5413C00F0D83B /* LaunchScreen.storyboard in Resources */,
 				8EB9D29C21D5413C00F0D83B /* Assets.xcassets in Resources */,
 				8EB9D29A21D5413A00F0D83B /* Main.storyboard in Resources */,

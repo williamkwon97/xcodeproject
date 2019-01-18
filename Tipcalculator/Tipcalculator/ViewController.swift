@@ -20,6 +20,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var twopeople: UILabel!
     @IBOutlet weak var fourpeople: UILabel!
     @IBOutlet weak var tipcontrol: UISegmentedControl!
+    @IBAction func EUY(_ sender: Any) {
+        let bill = Double(BillField.text!) ?? 0
+        let Euro = bill * 1.15
+    }
+    
     var savedText: String!
     
     func textFieldShouldReturn(BillField: UITextField) -> Bool {
@@ -42,7 +47,8 @@ class ViewController: UIViewController {
         
     }
     
-    @IBAction func CalculateTip(_ sender: Any) {
+    
+    @IBAction func CalculateTip (_ sender: Any) {
         let tippercentage = [0.15,0.18,0.20]
         let bill = Double(BillField.text!) ?? 0
         let tip = bill * tippercentage[tipcontrol.selectedSegmentIndex]
@@ -60,5 +66,28 @@ class ViewController: UIViewController {
         threetip.text = String(format: "$%.2f",tip/3)
         fourtip.text = String(format:"$%.2f",tip/4)
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // This is a good place to retrieve the default tip percentage from UserDefaults
+        // and use it to update the tip amount
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did appear")
+    }
+    
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did disappear")
+    }
+   
 }
 

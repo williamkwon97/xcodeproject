@@ -193,7 +193,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1104.8" y="-62.518740629685162"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3RH-Lw-1rl">
@@ -211,22 +211,56 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="If6-bg-ar6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41" y="-13"/>
+            <point key="canvasLocation" x="-497" y="-61"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Setting-->
         <scene sceneID="JDE-eL-Bmn">
             <objects>
                 <viewController id="FUu-aa-kbe" customClass="SettingsViewController" customModule="Tipcalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="742-Bw-0ug">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLC-Ii-dQ6">
+                                <rect key="frame" x="41" y="204" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AUD"/>
+                                <connections>
+                                    <action selector="Euro:" destination="dr6-yG-BLW" eventType="editingChanged" id="Wzc-Tj-7as"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZh-Kd-fbl">
+                                <rect key="frame" x="42" y="266" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CAD"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sia-tH-OqA">
+                                <rect key="frame" x="42" y="144" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="JPY"/>
+                                <connections>
+                                    <action selector="Euro:" destination="dr6-yG-BLW" eventType="editingChanged" id="yPe-EG-Lla"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOV-Ww-JaW">
+                                <rect key="frame" x="43" y="87" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EUY"/>
+                                <connections>
+                                    <action selector="EUY:" destination="dr6-yG-BLW" eventType="touchUpInside" id="AAw-w7-9FD"/>
+                                    <action selector="Euro:" destination="dr6-yG-BLW" eventType="editingChanged" id="xTX-Ht-Qij"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GqE-Ln-dc6"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wfP-Ij-4ID"/>
+                    <navigationItem key="navigationItem" title="Setting" id="wfP-Ij-4ID"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7p-Ga-ous" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dr6-yG-BLW" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
+            <point key="canvasLocation" x="416.80000000000001" y="702.99850074962524"/>
         </scene>
     </scenes>
 </document>
