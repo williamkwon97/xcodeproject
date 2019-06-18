@@ -1,0 +1,4 @@
+os: osx
+osx_image: xcode9.4
+language: swift
+script: platform=iOS Simulator,OS=10.1,name=iPhone 6
