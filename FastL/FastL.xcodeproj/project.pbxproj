@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA3AD464FF6AB9A9237AB5A /* Pods_FastLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7C00E4406ED689FC9F3D4D /* Pods_FastLTests.framework */; };
+		5BB8A0BAA7567D83D1FBE478 /* Pods_FastLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBC8134930CEE06A1639FEC /* Pods_FastLUITests.framework */; };
 		8E32FDE02306F6430038DB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32FDDF2306F6430038DB34 /* AppDelegate.swift */; };
 		8E32FDE22306F6430038DB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32FDE12306F6430038DB34 /* ViewController.swift */; };
 		8E32FDE52306F6430038DB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E32FDE32306F6430038DB34 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		8E32FDEA2306F6440038DB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E32FDE82306F6440038DB34 /* LaunchScreen.storyboard */; };
 		8E32FDF52306F6440038DB34 /* FastLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32FDF42306F6440038DB34 /* FastLTests.swift */; };
 		8E32FE002306F6440038DB34 /* FastLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E32FDFF2306F6440038DB34 /* FastLUITests.swift */; };
+		96D03962E13FD4A9C3B13ADA /* Pods_FastL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB4AA02DAE4E0C6E2A1AE03 /* Pods_FastL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EB66BB0482903C969ED796 /* Pods-FastLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLTests.release.xcconfig"; path = "Target Support Files/Pods-FastLTests/Pods-FastLTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DB4AA02DAE4E0C6E2A1AE03 /* Pods_FastL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F035EBB36A19663671FAD6 /* Pods-FastL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastL.debug.xcconfig"; path = "Target Support Files/Pods-FastL/Pods-FastL.debug.xcconfig"; sourceTree = "<group>"; };
+		515F844C10F38F44C46FDCBC /* Pods-FastLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLUITests.release.xcconfig"; path = "Target Support Files/Pods-FastLUITests/Pods-FastLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FBC8134930CEE06A1639FEC /* Pods_FastLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E32FDDC2306F6430038DB34 /* FastL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E32FDDF2306F6430038DB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E32FDE12306F6430038DB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		8E32FDFB2306F6440038DB34 /* FastLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E32FDFF2306F6440038DB34 /* FastLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastLUITests.swift; sourceTree = "<group>"; };
 		8E32FE012306F6440038DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA5CA921988E44672640EAC /* Pods-FastLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLUITests.debug.xcconfig"; path = "Target Support Files/Pods-FastLUITests/Pods-FastLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F259A4D2EFFE973FF7073F /* Pods-FastL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastL.release.xcconfig"; path = "Target Support Files/Pods-FastL/Pods-FastL.release.xcconfig"; sourceTree = "<group>"; };
+		D68DFE3BD0898466C12839C2 /* Pods-FastLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLTests.debug.xcconfig"; path = "Target Support Files/Pods-FastLTests/Pods-FastLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7C00E4406ED689FC9F3D4D /* Pods_FastLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D03962E13FD4A9C3B13ADA /* Pods_FastL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA3AD464FF6AB9A9237AB5A /* Pods_FastLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB8A0BAA7567D83D1FBE478 /* Pods_FastLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17B819481D76B120E59D2AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F035EBB36A19663671FAD6 /* Pods-FastL.debug.xcconfig */,
+				C5F259A4D2EFFE973FF7073F /* Pods-FastL.release.xcconfig */,
+				D68DFE3BD0898466C12839C2 /* Pods-FastLTests.debug.xcconfig */,
+				09EB66BB0482903C969ED796 /* Pods-FastLTests.release.xcconfig */,
+				BBA5CA921988E44672640EAC /* Pods-FastLUITests.debug.xcconfig */,
+				515F844C10F38F44C46FDCBC /* Pods-FastLUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E32FDD32306F6430038DB34 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				8E32FDF32306F6440038DB34 /* FastLTests */,
 				8E32FDFE2306F6440038DB34 /* FastLUITests */,
 				8E32FDDD2306F6430038DB34 /* Products */,
+				17B819481D76B120E59D2AD5 /* Pods */,
+				F75FB58C06FC47FA49DBE054 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = FastLUITests;
 			sourceTree = "<group>";
 		};
+		F75FB58C06FC47FA49DBE054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB4AA02DAE4E0C6E2A1AE03 /* Pods_FastL.framework */,
+				FD7C00E4406ED689FC9F3D4D /* Pods_FastLTests.framework */,
+				7FBC8134930CEE06A1639FEC /* Pods_FastLUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E32FE042306F6440038DB34 /* Build configuration list for PBXNativeTarget "FastL" */;
 			buildPhases = (
+				2C43C4C159BA0C56B89E3D08 /* [CP] Check Pods Manifest.lock */,
 				8E32FDD82306F6430038DB34 /* Sources */,
 				8E32FDD92306F6430038DB34 /* Frameworks */,
 				8E32FDDA2306F6430038DB34 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E32FE072306F6440038DB34 /* Build configuration list for PBXNativeTarget "FastLTests" */;
 			buildPhases = (
+				0AEFAD78A04D9732F73562F9 /* [CP] Check Pods Manifest.lock */,
 				8E32FDEC2306F6440038DB34 /* Sources */,
 				8E32FDED2306F6440038DB34 /* Frameworks */,
 				8E32FDEE2306F6440038DB34 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E32FE0A2306F6440038DB34 /* Build configuration list for PBXNativeTarget "FastLUITests" */;
 			buildPhases = (
+				63538880FDAC70415A09E1D7 /* [CP] Check Pods Manifest.lock */,
 				8E32FDF72306F6440038DB34 /* Sources */,
 				8E32FDF82306F6440038DB34 /* Frameworks */,
 				8E32FDF92306F6440038DB34 /* Resources */,
@@ -250,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEFAD78A04D9732F73562F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C43C4C159BA0C56B89E3D08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63538880FDAC70415A09E1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E32FDD82306F6430038DB34 /* Sources */ = {
@@ -430,10 +543,11 @@
 		};
 		8E32FE052306F6440038DB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F035EBB36A19663671FAD6 /* Pods-FastL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 23DXUL7A5A;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FastL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,6 +555,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamkwon.FastL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,10 +563,11 @@
 		};
 		8E32FE062306F6440038DB34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F259A4D2EFFE973FF7073F /* Pods-FastL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 23DXUL7A5A;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FastL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +575,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.williamkwon.FastL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +583,7 @@
 		};
 		8E32FE082306F6440038DB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68DFE3BD0898466C12839C2 /* Pods-FastLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +605,7 @@
 		};
 		8E32FE092306F6440038DB34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EB66BB0482903C969ED796 /* Pods-FastLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +627,7 @@
 		};
 		8E32FE0B2306F6440038DB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA5CA921988E44672640EAC /* Pods-FastLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +648,7 @@
 		};
 		8E32FE0C2306F6440038DB34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515F844C10F38F44C46FDCBC /* Pods-FastLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
